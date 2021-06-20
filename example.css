@@ -16,9 +16,9 @@
   
   .bannertexth1 {
     position: absolute;
-    top: 15%;
-    left: 16px;
-    font-size: 3.2em;
+    top: 13%;
+    
+    font-size: 3.35em;
     max-height: 25%;
   
   
@@ -26,12 +26,15 @@
   
   .bannertextp {
     position: absolute;
-    top: 37%;
-    left: 16px;
+    top: 32%;
+    
     font-size: 1.5em;
     max-height: 50%;
     font-family: sans-serif;
   
+  }
+  .bannertextp, .bannertexth1 {
+    left:6%;
   }
   
   
@@ -40,6 +43,7 @@
     text-align: center;
     color: white;
   }
+  
   
   .imagelist {
     float: left;
@@ -183,6 +187,62 @@
     }
   }
   @media only screen and (max-width:768px) {
-    li { font-size: }
+    li { font-size: 0.65em !important}
   }
-  
+    .bannertextp {
+      padding:1%;
+      border:none;
+      margin-bottom: none !important;
+      top:90%;
+      font-size:2em;
+      text-align:left;
+    }
+
+    .bannertexth1  {
+      text-align: left;
+      font-size:6em !important;
+    }
+    .a1 {
+      font-size:6em;
+    }
+    .a2 {
+      font-size:2em;
+      
+    }
+    .image1 {
+      position: absolute;
+      top:150%;
+    }
+    .image2 {
+      position:absolute;
+      top:175.5%;
+    }
+    .image3 {
+      left:8px;
+      top:200%;
+  }
+  .image4 {
+      top:225%;
+      left:8px;
+  }
+  .image5 {
+    position: absolute;
+    top:250%;
+    left:0%;
+    width:44%;
+    
+  }
+  .footdiv1 {
+    top:300%;
+    left:3%;
+}
+.footdiv2 {
+    top:330%;
+    left:3%;
+}
+.footdiv3 {
+    top:360%;
+    left:3%;
+}
+    
+    
