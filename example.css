@@ -1,0 +1,188 @@
+.lsmb {
+    float: left;
+    font-family: sans-serif;
+    font-size: 0.8em;
+  }
+  
+  .rsmb {
+    float: right;
+    font-family: sans-serif;
+    font-size: 0.8em;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .bannertexth1 {
+    position: absolute;
+    top: 15%;
+    left: 16px;
+    font-size: 3.2em;
+    max-height: 25%;
+  
+  
+  }
+  
+  .bannertextp {
+    position: absolute;
+    top: 37%;
+    left: 16px;
+    font-size: 1.5em;
+    max-height: 50%;
+    font-family: sans-serif;
+  
+  }
+  
+  
+  .banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .imagelist {
+    float: left;
+    width: 33%;
+    background-color: #969696;
+  }
+  
+  .imagelistdiv {
+    background-color: #969696;
+    width: 100%;
+    height: 75%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  
+  }
+  
+  .image {
+    margin: 5px 20px 20px;
+  }
+  
+  .imagelist>h1 {
+    margin-left: 30px;
+  }
+  
+  .imagelist>p {
+    margin-left: 30px;
+  }
+  
+  .footerdiv {
+    float: left;
+    width: 33%;
+    background-color: #c4c4c4;
+  
+  }
+  
+  @media only screen and (max-width:992px) {
+    .banner-image {
+      visibility: hidden;
+    }
+  
+    .bannertexth1 {
+      position: absolute;
+      color: black;
+      font-family: sans-serif;
+  
+  
+    }
+  
+    .bannertextp {
+      position: absolute;
+      color: black;
+      font-family: sans-serif;
+      font-size: 1.1em;
+      top: 45%;
+      padding-bottom: 120px;
+      border-bottom: 1px solid black;
+    }
+  
+    .menubar {
+      background-color: #4d4d4d;
+  
+  
+    }
+  
+    .lsmb,
+    .rsmb {
+      background-color: #4d4d4d;
+      padding-bottom: 40px;
+      color: white;
+  
+  
+    }
+  
+    .rsmb3 {
+      margin-right: 20px;
+  
+    }
+  
+    .imagelistdiv,
+    .imagelist {
+      background-color: white;
+    }
+  
+     /*.image {
+      width: 120%;
+      height: 115%;
+    }*/
+  
+    .lastimagelist {
+      display: block;
+      float: none;
+    }
+  
+    .footerdiv {
+      float: none;
+      background-color: white;
+      display: block;
+      width: 75%;
+      position: absolute;
+
+    }
+    .footdiv1 {
+        top:190%;
+        left:3%;
+    }
+    .footdiv2 {
+        top:210%;
+        left:3%;
+    }
+    .footdiv3 {
+        top:230%;
+        left:3%;
+    }
+  
+    h3 {
+      font-size: 220%;
+    }
+  
+    p {
+      font-size: 115%
+    }
+    .image1, .image2, .image3, .image4 {
+        height: 150px;
+    }
+    .image3, .image4 {
+        position: absolute;
+    }
+    .image3 {
+        left:46%;
+    }
+    .image4 {
+        top:122.5%;
+        left:46%;
+    }
+    .image5 {
+        width:113%;
+    }
+  
+    * {
+      font-family: sans-serif;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    li { font-size: }
+  }
+  
