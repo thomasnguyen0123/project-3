@@ -1,7 +1,11 @@
+<!DOCTYPE html>
 <html>
 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+<script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
     <link rel='stylesheet' href="example.css">
    
   </head>
@@ -9,8 +13,8 @@
   <body>
 
 
-    <div style="width:100%;overflow:hidden;" class="menubar">
-      <ul style="background-color:#4d4d4d;">
+    <div style="overflow:hidden;" class="menubar container-fluid">
+      <ul style="background-color:#4d4d4d;" class="list-unstyled">
         <li class="lsmb lsmb1">BRAND</li>
         <li class="lsmb lsmb2" style="margin-left:60px;">BROWSE</li>
       </ul>
@@ -27,7 +31,7 @@
 
 
 
-    <div class="banner">
+    <div class="banner container-fluid" class='padding-bottom:2%;'>
       <img src=" https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png" alt="A scene of beauty" class="banner-image ">
       <h1 class="bannertexth1">
         <b>Find a place to stay.</b>
@@ -36,68 +40,22 @@
         Rent from people in over 34,000 cities and 192 countries
       </p>
     </div>
-    <div class="imagelistdiv">
-      <h2 style="margin-left: 30px;font-family:sans-serif;" class="a1">
-        Neighbourhood Guides
-      </h2>
-      <p style="margin-left:30px;font-family:sans-serif;" class='a2'>
-
-
-        Not sure where to stay? We've created neighbourhood guides for cities all around the world
-      </p>
-      <div class="imagelist">
-        <img class="image image1" src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/mexico-city.png" alt="Mexico" style="
-    
-">
-        <img class="image image2" src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/ny.png" alt="New York" style="
-    
-">
-      </div>
-      <div class="imagelist">
-        <img class="image image3" src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/tokyo.png" alt="New York" style="
-    
-">
-        <img class="image image4" src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/paris.png" alt="New York" style="
-    
-">
-
-
-      </div>
-      <div class="imagelist lastimagelist">
-        <img class="image image5" src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/invite.png" alt="New York">
+    <div class="container-fluid">
+      
+      <div class='container-fluid'>
+        <div class='row'>
+          <div class="col-md-4 gx-5" style="float:right;">
+            <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/mexico-city.png" alt='mexico-city'>
+            
+          </div>
+          <div class='col-md-4' style='float:right;margin-left: 10%;'>
+            <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/tokyo.png" alt='tokyo'>
+          </div>
+        </div>
 
       </div>
     </div>
-    <div>
-      <div class="footerdiv footdiv1" style="padding-bottom:20px;">
-        <h3>
-          Travel
-        </h3>
-        <p>
-          From apartments to rooms, to treehouses and boats: stay in unique spaces in 192 countries
-        </p>
-        <a href="#">See how to travel on Airbnb</a>
-
-      </div>
-      <div class="footerdiv footdiv2" style="padding-bottom:20px;">
-        <h3>
-          Host
-        </h3>
-        <p>
-          Renting out your unused space could pay your bills or fund your next vacation
-        </p>
-        <a href="#">Learn more about hosting</a>
-      </div>
-      <div class="footerdiv footdiv3" style="padding-bottom:20px;">
-        <h3>
-          Trust and Safety
-        </h3>
-        <p>
-          From Verified ID to our worldwide customer support team, we've got your back
-        </p>
-        <a href="#">Learn about trust at Airbnb</a>
-      </div>
-    </div>
+    
   
 
 

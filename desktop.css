@@ -1,0 +1,50 @@
+#Float-left{
+    float:left;
+}
+#sub1 {
+    border:1px solid black
+}
+#sub2 {
+    border: 1px solid blue
+}
+#sub3 {
+    border: 1px solid yellow
+}
+#sub4 {
+    border: 1px solid teal;
+}
+.menu {
+    font-size:0.4em;
+}
+.marginleftandright {
+    margin:0 3% 0
+}
+.col-md-1 {
+    .marginleftandright();
+}
+
+#FirstImageDiv, #SecondImageDiv, #ThirdImageDiv {
+    margin-right: 15%;
+    
+}
+#FirstImageDiv {
+    margin-left:15%;
+    
+}
+
+#foot1 {
+    display:inline;
+}
+@media only screen and (max-width:576px) {
+    * {
+        margin:none !important;
+    }
+    .image1 {
+        display:block;
+    }
+    .menu {
+        font-size:0.1em !important;
+        width:30%;
+        height:120%;
+    }
+}
