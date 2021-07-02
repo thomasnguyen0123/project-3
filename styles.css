@@ -1,4 +1,6 @@
-
+a {
+    text-decoration: underline;
+}
 @media only screen and (min-width:992px){
     .sub4 {
     position:absolute;
@@ -92,8 +94,34 @@
         display:inline;
     }
     @media only screen and (min-width:768px) and (max-width:992px) {
+        
+        .item1.submenu.menu.sub1 {
+            left:3vw;
+        }
+        .col-sm-5 {
+            padding-left:3.9vw;
+        }
+        
+        #Banner {
+            margin-left:2vw;
+        }
+        .imagelisttext, .imagelisttext2 {
+            margin-left:2vw;
+            padding-top:2vw;
+        }
+        .Bannertext {
+            padding-top:5vw;
+        }
+        .Bannertext2 {
+            padding-bottom:1vw;
+            border-bottom:1px rgba(0, 0, 0, 0.116) solid
+        }
+        .text-uppercase {
+            color:white !important;
+        }
         #Menubar {
-            background-color: #556270
+            background-color: #556270;
+            padding: 3vw;
         }
         .bannerimage {
             display: none !important;
@@ -126,12 +154,12 @@
 }
         .row {
             width: 100vw;
-            height: 27.4vw;
+            height: 24.4vw;
         }
         .invite {
             position: absolute;
-            top: 40.6vw;
-            width: 43.6vw;
+            top: 44.6vw;
+            width: 43.3vw;
             /* height:62vw; */
             left: 2vw;
         }
@@ -139,13 +167,13 @@
             position: absolute;
         }
         .sub41 {
-            top:127vw ;
+            top:137vw ;
         }
         .sub42 {
-            top:144vw ;
+            top:154vw ;
         }
         .sub43 {
-            top:160vw ;
+            top:170vw ;
         }
         .sub41, .sub42, .sub43 {
             max-width:100%;
