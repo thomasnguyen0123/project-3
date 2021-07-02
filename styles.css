@@ -130,8 +130,8 @@
         }
         .invite {
             position: absolute;
-            top: 49vw;
-            width: 43.2vw;
+            top: 40.6vw;
+            width: 43.6vw;
             /* height:62vw; */
             left: 2vw;
         }
@@ -139,18 +139,21 @@
             position: absolute;
         }
         .sub41 {
-            top:114vw ;
+            top:127vw ;
         }
         .sub42 {
-            top:119vw ;
+            top:144vw ;
         }
         .sub43 {
-            top:124vw ;
+            top:160vw ;
+        }
+        .sub41, .sub42, .sub43 {
+            max-width:100%;
         }
     
     }
     
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width:767px) {
         
         .mexico, .paris {
             margin: 0px;
