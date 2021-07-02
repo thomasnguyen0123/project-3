@@ -39,7 +39,13 @@
     * {
         margin:none !important;
     }
+    body {
+        width:90.2%;
+    }
     .image1 {
+        display:block;
+    }
+    #foot1 {
         display:block;
     }
     .menu {
