@@ -247,6 +247,18 @@ a {
     }
     
     @media only screen and (max-width:767px) {
+        .navbar {
+            background-color: #556270;
+            border-right: 1.8vw #556270 solid;
+            width: 100vw;
+        }
+        .signup {
+            left:67% !important
+        }
+        .Bannertext,.imagelisttext{font-size:2.7rem}
+        .imagelisttext2{font-size:0.9rem}
+        .Bannertext2{font-size:4.1vw}
+        
         
         .mexico, .paris {
             margin: 0px;
@@ -265,7 +277,7 @@ a {
         }
         .sub25 {
             position: absolute;
-            top:12.6em;
+            top:21.6em;
             max-width:86.4%;
         }
         .image5 {
@@ -310,14 +322,14 @@ a {
             margin-left: 5%;
         }
         .sub41 {
-            top:45% ;
+            top:85vw ;
     
         }
         .sub42 {
-            top:50% ;
+            top:90vw ;
         }
         .sub43 {
-            top:56% ;
+            top:96vw ;
         }
         .Bannertext, .imagelisttext {
             position:static;
@@ -325,7 +337,7 @@ a {
             color:black;
             font-family:Arial, Helvetica, sans-serif;
             height:120px;
-            font-size:150%;
+            font-size:2.7rem;
         
     
         }
@@ -340,5 +352,5 @@ a {
             margin-top: -3%;
         }
         
-    }
     
+    } 
